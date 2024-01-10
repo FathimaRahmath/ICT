@@ -27,7 +27,7 @@ function checkPrime(arr) {
 
 //2.Write a JavaScript program to find the most frequent item of an array
 arr2 = [ 1, 1, 3, 5, 7, 3, 8, 5, 7, 4, 7, 9, 0, 2, 7, 6, 8, 9, 5, ]; 
-arr2.sort((a, b) => a - b); 
+arr2.sort((a, b) => a -b); 
 console.log(arr2)
 let count = 1, max = 0, element;
 for (let i = 1; i < arr2.length; ++i) { 
@@ -41,7 +41,7 @@ for (let i = 1; i < arr2.length; ++i) {
 		element = arr2[i]; 
 	} 
 } 
-console.log("The most occured element is: " + element);
+console.log(`The most occured element is: ${ element} & occured ${max} times`);
 
 
 //3. Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, check the current number is odd or even, and display it.
